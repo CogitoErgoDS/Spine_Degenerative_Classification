@@ -1,18 +1,30 @@
- 
-RSEED = 50
+### overal globals that are used in the project
+## different paths setting
+# Define the paths to the data
+# Define the path
+import sys
+from pathlib import Path
+import importlib
+data_path = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data')
+data_path_vor = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data/vorlauf')
+all_persons = True
+study_ids_to_keep = [4003253] 
+
+def keep_persons(df, study_ids_to_keep, all_persons):
+    if all_persons:
+        return df  # Return all DataFrames if all_studies is True
+    else:
+        df = df[df['study_id'].isin(study_ids_to_keep)]
+    return df
+
+
+RSEED = 42
 full_sample = True
 frac = 0.1
 
-def keep_persons(X_train, X_train_coor, X_train_des, study_ids_to_keep, all_studies=full_sample):
-    if all_studies == True:
-        return X_train, X_train_coor, X_train_des
-    else:
-        
-        X_train = X_train[X_train['study_id'].isin(study_ids_to_keep)]
-        X_train_coor = X_train_coor[X_train_coor['study_id'].isin(study_ids_to_keep)]
-        X_train_des = X_train_des[X_train_des['study_id'].isin(study_ids_to_keep)]
-    return X_train, X_train_coor, X_train_des
 
+ 
+## take a sample of the data 
 def generate_sample(df):
     if df.isnull().values.any():
         print("DataFrame contains missing values.")
