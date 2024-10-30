@@ -7,7 +7,7 @@ from pathlib import Path
 import importlib
 data_path = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data')
 data_path_vor = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data/vorlauf')
-all_persons = True
+all_persons = False
 study_ids_to_keep = [4003253] 
 
 def keep_persons(df, study_ids_to_keep, all_persons):
