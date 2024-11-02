@@ -9,7 +9,7 @@ data_path = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data')
 data_path_vor = Path('C:/Users/HP1/Desktop/Spiced/capstone-project/data/vorlauf')
 all_persons = True
 study_ids_to_keep = [4003253] 
-
+number_persons_train = 30
 
  
 

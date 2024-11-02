@@ -42,7 +42,7 @@ echo http://127.0.0.1:5000/ > .mlflow_uri
 This will create a local file where the uri is stored which will not be added on github (`.mlflow_uri` is in the `.gitignore` file). Alternatively you can export it as an environment variable with
 
 ```bash
-export MLFLOW_URI=http://127.0.0.1:5000/
+export  =http://127.0.0.1:5000/
 ```
 
 This links to your local mlflow, if you want to use a different one, then change the set uri.
