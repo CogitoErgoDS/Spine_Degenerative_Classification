@@ -23,8 +23,9 @@ def keep_persons(df, study_ids_to_keep, all_persons):
 
 
 RSEED = 42
+# put True if full sample and False if not
 full_sample = True
-frac = 0.1
+frac = 0.5
 
 
  
@@ -63,7 +64,19 @@ def check_duplicates(df):
     sorted_duplicates = duplicates.sort_values(by=list(duplicates.columns))
     print(duplicates)
     print("Number of duplicate rows:", duplicates.shape[0])
- 
+
+def count_severity_by_condition_level(X_train):
+    # Drop duplicates to ensure each 'study_id' is only counted once per 'condition' and 'level'
+    unique_data = X_train.drop_duplicates(subset=['study_id', 'condition', 'level', 'severity'])
+    
+    # Group by 'condition', 'level', and 'severity' and count occurrences
+    severity_counts = unique_data.groupby(['condition', 'level', 'severity']).size().reset_index(name='count')
+
+    shape_df = X_train.shape
+    # Display the result
+    print(f"Shape of the DataFrame: {shape_df}")
+    print(severity_counts)
+    return severity_counts
 
 # IMpute missing data using KNN method
 import pandas as pd
