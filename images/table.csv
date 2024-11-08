@@ -1,0 +1,26 @@
+study_id , categorie                        , severity     , condition                      , level ,     x       ,     y       
+4003253, left_neural_foraminal_narrowing_l1_l2 , Normal/Mild  , left neural foraminal narrowing , l1/l2 ,196.070671,126.021201
+4003253, left_neural_foraminal_narrowing_l2_l3 , Normal/Mild  , left neural foraminal narrowing , l2/l3 ,191.321555,170.120141
+4003253, left_neural_foraminal_narrowing_l3_l4 , Normal/Mild  , left neural foraminal narrowing , l3/l4 ,187.878354,217.245081
+4003253, left_neural_foraminal_narrowing_l4_l5 , Moderate     , left neural foraminal narrowing , l4/l5 ,186.504472,251.592129
+4003253, left_neural_foraminal_narrowing_l5_s1 , Normal/Mild  , left neural foraminal narrowing , l5/s1 ,197.100569,289.457306
+4003253, left_subarticular_stenosis_l1_l2      , Normal/Mild  , left subarticular stenosis      , l1/l2 ,179.126448,161.235521
+4003253, left_subarticular_stenosis_l2_l3      , Normal/Mild  , left subarticular stenosis      , l2/l3 ,180.97973,158.764479
+4003253, left_subarticular_stenosis_l3_l4      , Normal/Mild  , left subarticular stenosis      , l3/l4 ,176.037645,157.528957
+4003253, left_subarticular_stenosis_l4_l5      , Moderate     , left subarticular stenosis      , l4/l5 ,172.948842,156.911197
+4003253, left_subarticular_stenosis_l5_s1      , Normal/Mild  , left subarticular stenosis      , l5/s1 ,179.744209,161.853282
+4003253, right_neural_foraminal_narrowing_l1_l2 , Normal/Mild  , right neural foraminal narrowing , l1/l2 ,194.56979,127.755258
+4003253, right_neural_foraminal_narrowing_l2_l3 , Normal/Mild  , right neural foraminal narrowing , l2/l3 ,191.632887,165.93499
+4003253, right_neural_foraminal_narrowing_l3_l4 , Moderate     , right neural foraminal narrowing , l3/l4 ,187.227533,210.722753
+4003253, right_neural_foraminal_narrowing_l4_l5 , Moderate     , right neural foraminal narrowing , l4/l5 ,187.961759,251.839388
+4003253, right_neural_foraminal_narrowing_l5_s1 , Normal/Mild  , right neural foraminal narrowing , l5/s1 ,198.240918,285.613767
+4003253, right_subarticular_stenosis_l1_l2      , Normal/Mild  , right subarticular stenosis      , l1/l2 ,145.288771,158.624642
+4003253, right_subarticular_stenosis_l2_l3      , Normal/Mild  , right subarticular stenosis      , l2/l3 ,145.900042,157.096466
+4003253, right_subarticular_stenosis_l3_l4      , Normal/Mild  , right subarticular stenosis      , l3/l4 ,142.84369,156.179561
+4003253, right_subarticular_stenosis_l4_l5      , Normal/Mild  , right subarticular stenosis      , l4/l5 ,147.428217,158.013372
+4003253, right_subarticular_stenosis_l5_s1      , Normal/Mild  , right subarticular stenosis      , l5/s1 ,145.900042,161.375358
+4003253, spinal_canal_stenosis_l1_l2            , Normal/Mild  , spinal canal stenosis            , l1/l2 ,322.831858,227.964602
+4003253, spinal_canal_stenosis_l2_l3            , Normal/Mild  , spinal canal stenosis            , l2/l3 ,320.571429,295.714286
+4003253, spinal_canal_stenosis_l3_l4            , Normal/Mild  , spinal canal stenosis            , l3/l4 ,323.030303,371.818182
+4003253, spinal_canal_stenosis_l4_l5            , Normal/Mild  , spinal canal stenosis            , l4/l5 ,335.292035,427.327434
+4003253, spinal_canal_stenosis_l5_s1            , Normal/Mild  , spinal canal stenosis            , l5/s1 ,353.415929,483.964602

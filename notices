@@ -1,3 +1,45 @@
+
+just class one and two
+reduce layeer geometically layers  512 divided by 4
+1. If i will also fit the model for oter damages how to progess? Should it be done in separate steps using loops?
+
+ugrade category 2 weights
+U-net pretrained model
+
+2. cases with medium and severity are undersampled in terms of study_id but equal in terms of images.
+
+3. for 10000 pictures it took about 3 hours 
+
+
+
+or 4. Add a Convolutional Layer: Adding a convolutional layer just before the fully connected layers might help /
+extract more spatial features, especially if you have spatially informative data.
+
+m_1.fc = nn.Sequential(
+    nn.Conv2d(m_1.fc.in_features, 512, kernel_size=3, stride=1, padding=1),  # Convolutional layer
+    nn.ReLU(),
+    nn.BatchNorm2d(512),
+    nn.Dropout(0.5),
+    nn.Linear(512, train_df['severity'].nunique())
+)
+
+
+Incorporating Attention Mechanisms:
+Attention mechanisms (e.g., self-attention or squeeze-and-excitation layers) can help the model focus
+on the most relevant parts of the image, which could be beneficial for medical image tasks.
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 does it make sense to convert all pictures into 
 
 check how much size have original pictures
