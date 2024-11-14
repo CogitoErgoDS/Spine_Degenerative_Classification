@@ -1,0 +1,37 @@
+import os
+import shutil
+import pandas as pd
+
+def copy_images_to_structure(df, base_dir):
+    """
+    Copy images from the old structure to the new one based on `study_id` and `series_id`.
+    """
+    for study_id, series_id, image_path in zip(df['study_id'], df['series_id'], df['image_path']):
+        # Extract study and series directories
+        study_folder = os.path.join(base_dir, str(study_id))
+        series_folder = os.path.join(study_folder, str(series_id))
+        
+        # Create directories if they don't exist
+        os.makedirs(series_folder, exist_ok=True)
+        
+        # Get image filename
+        image_filename = os.path.basename(image_path)
+        
+        # Define the new image path
+        dest_image_path = os.path.join(series_folder, image_filename)
+        
+        # Check if the image exists before copying
+        if os.path.exists(image_path):
+            shutil.copy(image_path, dest_image_path)
+            print(f"Copied: {image_path} -> {dest_image_path}")
+        else:
+            print(f"Image not found: {image_path}")
+
+# Convert your train_df to a DataFrame if needed
+df = pd.DataFrame(train_df)
+
+# Base directory where the images will be copied
+base_dir = 'colab'
+
+# Call the function to copy images
+copy_images_to_structure(df, base_dir)
