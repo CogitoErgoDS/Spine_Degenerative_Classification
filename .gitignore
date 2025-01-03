@@ -136,3 +136,7 @@ models/*
 
 #config file has sensitive data
 .mlflow_uri
+.venv/
+*.pt
+*.pth
+*.ipynb
