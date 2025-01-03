@@ -1,4 +1,6 @@
-Introduction¶
+RSNA 2024 Lumbar Spine Degenerative Classification
+
+Introduction: 
 
 Low back pain is the leading cause of disability worldwide, as reported by the World Health Organization, affecting approximately 619 million people in 2020. The prevalence of low back pain increases with age, with most individuals experiencing it at some point in their lives. Pain and limited mobility are common symptoms of spondylosis, a collection of degenerative spine conditions characterized by the degeneration of intervertebral discs and subsequent narrowing of the spinal canal (spinal stenosis). This can lead to compression or irritation of the nerves in the lower back, significantly impacting the quality of life.
 
@@ -26,5 +28,5 @@ Submissions for the competition will be evaluated based on the average of sample
     2 for Moderate
     4 for Severe
 
-    
-
+ 
+![Alt text]("C:\Users\HP1\Desktop\Spiced\capstone-project\Presenation\images\Picture1.png")
