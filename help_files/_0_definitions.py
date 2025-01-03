@@ -71,7 +71,7 @@ def count_severity_by_condition_level(X_train):
     
     # Group by 'condition', 'level', and 'severity' and count occurrences
     severity_counts = unique_data.groupby(['condition', 'level', 'severity']).size().reset_index(name='count')
-
+  
     shape_df = X_train.shape
     # Display the result
     print(f"Shape of the DataFrame: {shape_df}")

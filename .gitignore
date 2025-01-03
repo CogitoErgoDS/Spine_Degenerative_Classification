@@ -136,7 +136,13 @@ models/*
 
 #config file has sensitive data
 .mlflow_uri
-.venv/
+# Ignore large model files
+localization_model.pth
+best_model.pt
+classification_model.pth
+for_presentation.ipynb
+_0_1_end_preparation_4.ipynb.venv/
 *.pt
 *.pth
-*.ipynb
+
+ 
