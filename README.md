@@ -92,7 +92,7 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 
 | Figure | Description |
 |:------:|:-------------|
-| ![Anatomy](    /Presenation/images
+| ![Anatomy](Presentation/Images/fig1_anatomy.png)
 
 /Picture1.png) | Anatomical overview of lumbar spine regions |
 | ![Foraminal Narrowing](images/fig2_foraminal_narrowing.png) | Example of foraminal narrowing (sagittal MRI) |
@@ -112,4 +112,5 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
