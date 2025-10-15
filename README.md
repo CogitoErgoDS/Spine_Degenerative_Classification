@@ -93,8 +93,8 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 ## 🖼 Visualization
 
 | Figure | Description |
-|:------:|:-------------|
-| ![Preview](Presentation/images/sddefault.jpg) | Anatomical overview of lumbar spine regions |
+|:------:|:-------------|   
+| ![Preview](Presenation/images/sddefault.jpg) | Anatomical overview of lumbar spine regions |
 | ![Foraminal Narrowing](Presentation/images/fig2_foraminal_narrowing.png) | Example of foraminal narrowing (sagittal MRI) |
 | ![Model Architecture](Presentation/images/fig3_model_diagram.png) | Network architecture (ResNet-50 fine-tuning) |
 | ![Results](Presentation/images/fig4_results.png) | Accuracy comparison with and without bounding boxes |
@@ -113,6 +113,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
