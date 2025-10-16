@@ -23,6 +23,9 @@ The challenge focuses on **five conditions** across **five spinal levels** (L1/L
 - Spinal Canal Stenosis  
 
 Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
+#### Narrowing of the nerve passageways in the spine<img width="1561" height="158" alt="image" src="https://github.com/user-attachments/assets/53952753-ac24-494a-b882-380bc151de25" />
+<img src="images/24856-foraminal-stenosis.jpg alt="Preview" width="400">
+
 #### Anatomical overview of lumbar spine regions
 <img src="Presenation/images/sddefault.jpg" alt="Preview" width="400">
 
@@ -32,7 +35,7 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 - **Origin:** Kaggle RSNA Lumbar Spine Challenge  
 - **Subjects:** ~2000 patients  
 - **Images per patient:** ~40 sagittal MRI slices → ~80,000 rows  
-- **Focus for this project:** Left Neural Foraminal Narrowing at L5/S1  
+- **Focus of this project: Neural Foraminal Narrowing at L5/S1 — for computational reasons, training was limited to the L5/S1 level but is transferable to other lumbar levels
 - **Sampling:** 4,000 images per severity class (balanced by severity, not by person)  
 - **Splits:**  
   - Train/Test → 80 % / 20 %  
@@ -109,6 +112,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
