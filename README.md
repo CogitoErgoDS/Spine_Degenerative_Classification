@@ -75,10 +75,18 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 | With Bounding Boxes | ⭐ Higher accuracy | Limited generalization |
 | Without Bounding Boxes | ⚙️ Slightly lower accuracy | Better generalization across disc levels |
 
-<p align="center">
-  <img src="images/Screenshot 2025-10-16 093113.png" alt="Confusion Matrix without Bounding Boxes" width="420">
-  <img src="images/Screenshot 2025-10-16 093247.png" alt="Confusion Matrix with Bounding Boxes" width="420">
-</p>
+<table>
+<tr>
+<td align="center">
+<b>Confusion Matrix – Without Bounding Boxes</b><br>
+<img src="images/Screenshot 2025-10-16 093113.png" alt="Confusion Matrix without Bounding Boxes" width="420">
+</td>
+<td align="center">
+<b>Confusion Matrix – With Bounding Boxes</b><br>
+<img src="images/Screenshot 2025-10-16 093247.png" alt="Confusion Matrix with Bounding Boxes" width="420">
+</td>
+</tr>
+</table>
 
 
 ---
@@ -109,6 +117,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
