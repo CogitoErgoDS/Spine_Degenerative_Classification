@@ -101,11 +101,6 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 
 ---
 
-## 🖼️ Visualization Placeholders
-*(Add your PowerPoint figures here once exported as `.png`)*
-
----
-
 ## 🧾 Citation
 Dataset:  
 **RSNA Lumbar Spine Degenerative Conditions Dataset**  
@@ -117,6 +112,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
