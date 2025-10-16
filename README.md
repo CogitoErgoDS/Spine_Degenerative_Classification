@@ -24,6 +24,7 @@ The challenge focuses on **five conditions** across **five spinal levels** (L1/L
 
 Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 
+ ![Preview](Presenation/images/sddefault.jpg) | Anatomical overview of lumbar spine regions |
 ---
 
 ## 📊 Dataset
@@ -82,13 +83,7 @@ Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
 ## 🖼️ Visualization Placeholders
 *(Add your PowerPoint figures here once exported as `.png`)*
 
-| Figure | Description |
-|---------|-------------|
-| `fig1_anatomy.png` | Anatomical overview of lumbar spine regions |
-| `fig2_foraminal_narrowing.png` | Example of foraminal narrowing (sagittal MRI) |
-| `fig3_model_diagram.png` | Network architecture (ResNet-50 fine-tuning) |
-| `fig4_results.png` | Accuracy comparison with/without bounding boxes |
-## 🖼 Visualization
+
 
 ## 🖼 Visualization
 
@@ -113,6 +108,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
