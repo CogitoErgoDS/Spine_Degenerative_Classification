@@ -23,7 +23,7 @@ The challenge focuses on **five conditions** across **five spinal levels** (L1/L
 - Spinal Canal Stenosis  
 
 Each condition is graded as **Normal/Mild**, **Moderate**, or **Severe**.
-#### Narrowing of the nerve passageways in the spine<img width="1561" height="158" alt="image" src="https://github.com/user-attachments/assets/53952753-ac24-494a-b882-380bc151de25" />
+#### Narrowing of the nerve passageways in the spine 
 <img src="images/24856-foraminal-stenosis.jpg alt="Preview" width="400">
 
 #### Anatomical overview of lumbar spine regions
@@ -112,6 +112,7 @@ Radiological Society of North America (RSNA), 2023.
 ## 💡 Notes
 This repository was created as part of a Kaggle competition project.  
 Although not a winning solution, it demonstrates practical ML application in a real-world medical imaging challenge — combining data preprocessing, transfer learning, and early stopping strategies for robust performance.
+
 
 
 
